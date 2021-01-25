@@ -9,7 +9,7 @@
 
   <title>
     
-       &middot; Your awesome title
+       &middot; Lynolan Moodley
     
   </title>
 
@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
   <link rel="stylesheet" href="http://localhost:4000/public/css/lanyon.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="shortcut icon" type="image/png" href="http://localhost:4000/assets/favicon.png">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
@@ -39,7 +40,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+    <p>I am an aspiring computer scientist keen on pursuing novel endeavors. I have  an interest in VR, HCI, graphics, visualisation and AI.  Showcased, in this website, are some of my projects.</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -54,12 +55,6 @@
       
     
       
-        
-          <a class="sidebar-nav-item" href="http://localhost:4000/about/">About</a>
-        
-      
-    
-      
     
       
     
@@ -69,10 +64,12 @@
         
       
     
+      
+    
+      
+    
 
-    <a class="sidebar-nav-item" href="/archive/v.zip">Download</a>
-    <a class="sidebar-nav-item" href="">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v</span>
+    <span class="sidebar-nav-item">Currently v1.0.2</span>
   </nav>
 
   <div class="sidebar-item">
@@ -89,28 +86,28 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">Your awesome title</a>
+            <a href="/" title="Home">Lynolan Moodley</a>
             <small></small>
           </h3>
         </div>
       </div>
 
       <div class="container content">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jan 24, 2021</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2021/01/24/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li><li><span class="post-meta">Jan 23, 2021</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2021/01/23/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <p>My name is Lynolan Moodley (just Lyn is perfectly fine). I was born in Durban, South Africa, where I attended primary andd secondary school. I then went on to complete my BSc Computer Science and Computer Games Development degree, as well as my BSc (Hons) Computer Science degree at the University of Cape Town. I am currently interning as a Backend Engineer at Aruba Networks.</p>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<p>I attribute many of my interests to my time at university. I enjoyed game development so much, that I continue to make computer games today. I had the opportunity to develop an interactive experience in my virtual reality course, a lightsaber (naturally). I feel there are many other uses for VR and I wish to investigate this further.</p>
+
+<p>I had experience with computer vision during my honours project, <a href="https://projects.cs.uct.ac.za/honsproj/cgi-bin/view/2020/bowden_emeruem_moodley.zip/Tree-Segmentation.html">Clustering-Based Tree Segmentation in Aerial Images of Orchards</a>. I also completed a smaller project in HCI, with the aim of improving the public transportation system in South Africa.</p>
+
+<hr />
+
+<h1 id="contact">Contact</h1>
+<p>Email: lynolan@protonmail.com</p>
+
+<p>Linkedin: <a href="https://www.linkedin.com/in/lynolanmoodley/">https://www.linkedin.com/in/lynolanmoodley/</a></p>
+
+<h1 id="cv">CV</h1>
+<p><button type="button" name="btnTreeSeg" onclick="window.open('https://lynolan.github.io/assets/lynolanMoodley_pubCV.pdf')">View PDF</button></p>
 
       </div>
     </div>
@@ -118,5 +115,14 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='/public/js/script.js'></script>
+    <script>
+    var elements = document.querySelectorAll('a');
+    Array.prototype.forEach.call(elements, function(el, i){
+        if(el.innerHTML.substring(0,1)=='[' && el.innerHTML.substring(el.innerHTML.length-1)==']') {
+            el.innerHTML = el.innerHTML.substring(1,el.innerHTML.length-1);
+            el.classList.add('btn');
+        }
+    });
+</script>
   </body>
 </html>

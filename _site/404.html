@@ -9,7 +9,7 @@
 
   <title>
     
-       &middot; Your awesome title
+       &middot; Lynolan Moodley
     
   </title>
 
@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="http://localhost:4000/public/css/syntax.css">
   <link rel="stylesheet" href="http://localhost:4000/public/css/lanyon.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="shortcut icon" type="image/png" href="http://localhost:4000/assets/favicon.png">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="http://localhost:4000/public/favicon.ico">
@@ -39,7 +40,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+    <p>I am an aspiring computer scientist keen on pursuing novel endeavors. I have  an interest in VR, HCI, graphics, visualisation and AI.  Showcased, in this website, are some of my projects.</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -54,12 +55,6 @@
       
     
       
-        
-          <a class="sidebar-nav-item" href="http://localhost:4000/about/">About</a>
-        
-      
-    
-      
     
       
     
@@ -69,10 +64,12 @@
         
       
     
+      
+    
+      
+    
 
-    <a class="sidebar-nav-item" href="/archive/v.zip">Download</a>
-    <a class="sidebar-nav-item" href="">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v</span>
+    <span class="sidebar-nav-item">Currently v1.0.2</span>
   </nav>
 
   <div class="sidebar-item">
@@ -89,7 +86,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">Your awesome title</a>
+            <a href="/" title="Home">Lynolan Moodley</a>
             <small></small>
           </h3>
         </div>
@@ -123,5 +120,14 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='/public/js/script.js'></script>
+    <script>
+    var elements = document.querySelectorAll('a');
+    Array.prototype.forEach.call(elements, function(el, i){
+        if(el.innerHTML.substring(0,1)=='[' && el.innerHTML.substring(el.innerHTML.length-1)==']') {
+            el.innerHTML = el.innerHTML.substring(1,el.innerHTML.length-1);
+            el.classList.add('btn');
+        }
+    });
+</script>
   </body>
 </html>
