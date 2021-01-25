@@ -18,5 +18,6 @@ Email: {{ site.email }}
 
 Linkedin: [{{ site.linkedin }}]({{ site.linkedin }})
 
+
 # CV #
 <button type="button" name="btnTreeSeg" onclick="window.open('https://lynolan.github.io/assets/lynolanMoodley_pubCV.pdf')">View PDF</button>
