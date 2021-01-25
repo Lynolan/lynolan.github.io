@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   an interest in VR, HCI, graphics, visualisation and AI. 
   Showcased, in this website, are some of my projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lynolan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 logo: /assets/favicon.png
@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Google Analytics
 google_analytics: G-01MHHLRYBG
