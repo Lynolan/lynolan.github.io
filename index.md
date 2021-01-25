@@ -16,7 +16,7 @@ I had experience with computer vision during my honours project, [Clustering-Bas
 # Contact #
 Email: {{ site.email }}
 
-Linkedin: {{ site.linkedin }}
+Linkedin: [{{ site.linkedin }}]({{ site.linkedin }})
 
 # CV #
-<button type="button" name="btnTreeSeg" onclick="window.open('https://lynolan.github.io/assets/lynolanMoodley_pubCV.pdf')">View Project</button>
+<button type="button" name="btnTreeSeg" onclick="window.open('https://lynolan.github.io/assets/lynolanMoodley_pubCV.pdf')">View PDF</button>
